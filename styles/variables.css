@@ -1,1 +1,31 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  /* Основные цвета */
+  --bg-color: #ffffff;
+  --text-color: #000000;
+  --accent-color: #000000;
+  --border-color: #000000;
+  
+  /* Цвета для сердца */
+  --heart-contour: #000000;
+  --heart-fill: #ff0000;
+  
+  /* Цвет для обводки лейбла */
+  --label-stroke: #ffffff;
+  
+  /* Градиент фона */
+  --gradient-bg: repeating-linear-gradient(90deg, #d3d3d3 0px, #d3d3d3 2px, transparent 2px, transparent 4px),
+                 repeating-linear-gradient(180deg, #d3d3d3 0px, #d3d3d3 2px, transparent 2px, transparent 4px),
+                 linear-gradient(180deg, #e7e7e7 0%, #1a1a1a 100%);
+  
+  /* Шрифты */
+  --main-font: 'Inter', 'Segoe UI', system-ui, sans-serif;
+  --accent-font: 'Press Start 2P', 'Courier New', monospace;
+  
+  /* Размеры — ширина header и cards одинаковая */
+  --block-width: clamp(320px, 100% - 2rem, 700px);
+  
+  /* Вес шрифта */
+  --text-weight: 410;
+  --title-weight: 715;
+}
