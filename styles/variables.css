@@ -22,10 +22,10 @@
   --main-font: 'Inter', 'Segoe UI', system-ui, sans-serif;
   --accent-font: 'Press Start 2P', 'Courier New', monospace;
   
-  /* Размеры — ширина header и cards одинаковая */
+  /* Размеры */
   --block-width: clamp(320px, 100% - 2rem, 700px);
   
-  /* Вес шрифта */
+  /* Веса шрифта — в диапазоне от 400 до 785 */
   --text-weight: 410;
-  --title-weight: 715;
+  --title-weight: 785;
 }
