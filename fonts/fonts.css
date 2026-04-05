@@ -3,12 +3,12 @@
   font-family: 'Inter';
   src: url('../fonts/Inter-Variable.woff2') format('woff2 supports variations'),
        url('../fonts/Inter-Variable.woff2') format('woff2-variations');
-  font-weight: 100 900;
+  font-weight: 400 785;               */
   font-style: normal;
   font-display: swap;
 }
 
-/* Шрифт Press Start 2P */
+/* Шрифт Press Start 2P (обычный, не вариативный) */
 @font-face {
   font-family: 'Press Start 2P';
   src: url('../fonts/PressStart2P-Regular.woff2') format('woff2'),

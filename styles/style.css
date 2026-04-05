@@ -33,7 +33,7 @@
   height: 368px;
   margin-top: 68px;
   margin-bottom: 95px;
-  border: 2px solid var(--border-color); 
+  border: 2px solid var(--border-color);
   text-align: center;
   background-color: var(--bg-color);
 }
@@ -92,7 +92,7 @@
 }
 
 
-.card__title { 
+.card__title {
   border-bottom: 2px solid var(--border-color);
   padding: 0.5rem 0.75rem 0 0.75rem;
   font-family: var(--main-font);
@@ -173,7 +173,7 @@
   top: 1.5rem;
   right: 1.5rem;
   z-index: 2;
-  opacity: 0.5;  
+  opacity: 0.5;
   color: var(--text-color);
   font-family: var(--accent-font);
   font-size: 14px;
@@ -658,7 +658,7 @@
 
   .save-button .button__text {
     font-size: 14px;
-     white-space: nowrap; 
+    white-space: nowrap; 
   }
   
 
