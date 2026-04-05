@@ -16,7 +16,7 @@ body {
   margin: 0;
   padding: 0;
   color: var(--text-color);
-  font-family: var(--main-font);
+  font-family: var(--main-font), sans-serif;
   background-color: var(--bg-color);
   background-image: var(--gradient-bg);
   background-size: cover;
