@@ -94,8 +94,10 @@
 
 .card__title {
   border-bottom: 2px solid var(--border-color);
+  font-weight: 700px;
   padding: 0.5rem 0.75rem 0 0.75rem;
   font-family: var(--main-font), sans-serif;
+  padding: 4px 10px;
   font-size: 18px;
   line-height: 1.2;
   font-variation-settings: 'wght' var(--title-weight);
@@ -120,49 +122,49 @@
 }
 
 
-.card__image--original {
+.filter-original {
   filter: none;
 }
 
 
 /* Карточка 2: 1 спринт — чистый лист, винтажный эффект тревоги */
-.card__image--vintage {
+.filter-vintage {
   filter: sepia(0.6) saturate(1.4) brightness(0.9) contrast(1.1);
 }
 
 
 /* Карточка 3: 1 спринт — а если не получится, мечтательный размытый эффект */
-.card__image--dream {
+.filter-dream {
   filter: blur(1px) brightness(1.1) saturate(1.5);
 }
 
 
 /* Карточка 4: 2 спринт — погоня за идеалом, МНОЖЕСТВЕННЫЙ фильтр (кибер-эффект) */
-.card__image--cyber {
+.filter-cyber {
   filter: hue-rotate(15deg) contrast(1.3) saturate(2) brightness(0.9) drop-shadow(0 0 3px rgba(0, 255, 255, 0.5));
 }
 
 
 /* Карточка 5: 2 спринт — о тех, кто рядом, тёплый эффект поддержки */
-.card__image--warm {
+.filter-warm {
   filter: brightness(1.05) contrast(1.2) sepia(0.3);
 }
 
 
 /* Карточка 6: 3 спринт — обходные стратегии, холодный аналитический эффект */
-.card__image--cold {
+.filter-cold {
   filter: grayscale(0.4) brightness(0.95) contrast(1.1) hue-rotate(5deg);
 }
 
 
 /* Карточка 7: 3 спринт — когда опускаются руки, МНОЖЕСТВЕННЫЙ неоновый фильтр */
-.card__image--neon {
+.filter-neon {
   filter: brightness(1.2) contrast(1.4) saturate(1.8) drop-shadow(0 0 4px #ff00ff) drop-shadow(0 0 2px #00ffff);
 }
 
 
 /* Карточка 8: Сейчас я здесь — монохромный эффект осознанности */
-.card__image--mono {
+.filter-mono {
   filter: grayscale(0.9) contrast(1.2);
 }
 
