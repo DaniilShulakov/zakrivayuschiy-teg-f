@@ -10,14 +10,20 @@
 
 */
 /* Базовые переходы для элементов сердца */
+/* Анимации для иконки сердца */
+
+/* Базовые переходы для элементов сердца */
 .like-icon {
   display: block;
-  flex-shrink: 0;
   width: 39px;
   height: 36px;
-  transform-origin: center;
+  transform-origin: center;  
   cursor: pointer;
+  flex-shrink: 0;
 }
+
+.like-icon .heart {
+  transform-origin: center;  
 
 .like-icon svg,
 .like-icon symbol,
@@ -49,7 +55,7 @@
 .like-icon .sparks {
   opacity: 0;
   fill: var(--heart-fill);
-  transform-origin: 19.5px 18px;  /* Центр сердца (39/2=19.5, 36/2=18) */
+  transition: opacity 0s;
 }
 
 
@@ -108,7 +114,6 @@
 .like-icon.is-liked .sparks {
   opacity: 1;
   animation: sparks-fade 0.3s ease-in 0.3s 1 normal forwards;
-  transform-origin: 19.5px 18px;
 }
 
 
@@ -140,4 +145,5 @@
   100% {
     opacity: 0;
   }
+}
 }
