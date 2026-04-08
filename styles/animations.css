@@ -22,8 +22,12 @@
   flex-shrink: 0;
 }
 
+
 .like-icon .heart {
   transform-origin: center;  
+
+}
+
 
 .like-icon svg,
 .like-icon symbol,
@@ -135,6 +139,7 @@
   }
 }
 
+
 /* Вспышка искр */
 @keyframes sparks-fade {
   0% {
@@ -146,4 +151,4 @@
     opacity: 0;
   }
 }
-}
+
