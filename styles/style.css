@@ -177,9 +177,7 @@
   opacity: 0.5;
   color: var(--text-color);
   font-family:
-
-
-var(--accent-font), monospace;
+  var(--accent-font), monospace;
   font-size: 14px;
   text-transform: uppercase;
   text-shadow: -1px -1px 0 var(--label-stroke),
