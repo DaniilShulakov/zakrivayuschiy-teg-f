@@ -17,14 +17,14 @@
   display: block;
   width: 39px;
   height: 36px;
-  transform-origin: center;  
+  transform-origin: center;
   cursor: pointer;
   flex-shrink: 0;
 }
 
 
 .like-icon .heart {
-  transform-origin: center;  
+  transform-origin: center;
 }
 
 
