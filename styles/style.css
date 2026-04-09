@@ -392,9 +392,7 @@ var(--accent-font), monospace;
   color: var(--text-color);
   font-family: var(--accent-font), monospace;
   font-size: 14px;
-
-
-line-height: 150%;
+  line-height: 150%;
   text-transform: uppercase;
   word-break: keep-all;
   white-space: normal;
